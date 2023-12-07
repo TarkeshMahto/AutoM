@@ -5,4 +5,46 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>LearnTestAutomation</name>
   <description>This is a test automation project based on Java</description>
+  
+  <dependencies>
+	  <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.15.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-api</artifactId>
+    <version>4.15.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-remote-driver</artifactId>
+    <version>4.15.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-chrome-driver</artifactId>
+    <version>4.15.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.8.0</version>
+    <scope>test</scope>
+</dependency>
+
+	  
+  </dependencies>
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+
+
+  
+  
+  
+  
 </project>
